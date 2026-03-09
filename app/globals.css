@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap");
+
+@theme {
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #EDE8DF;
+  --color-primary: #2C2416;
+  --color-primary-light: #4A3728;
+  --color-primary-lighter: #6B4E35;
+  --color-accent: #D4A574;
+  --color-accent-dark: #C4905A;
+  --color-muted: #7A6855;
+  --color-muted-light: #9A8E80;
+
+  --color-mood: #D4A574;
+  --color-mood-light: #F5E6D3;
+  --color-journal: #7A9E87;
+  --color-journal-light: #E3EDE6;
+  --color-breathe: #8B9DC3;
+  --color-breathe-light: #E0E6F3;
+  --color-sleep: #9B7EC8;
+  --color-sleep-light: #EDE4F5;
+  --color-cbt: #C47A7A;
+  --color-cbt-light: #F5E3E3;
+  --color-community: #C4A44A;
+  --color-community-light: #F5EDD3;
+
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+
+  --animate-fade-in: fadeIn 0.4s ease-out;
+  --animate-fade-up: fadeUp 0.5s ease-out;
+  --animate-pulse-slow: pulseSlow 4s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseSlow {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

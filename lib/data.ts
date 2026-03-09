@@ -40,7 +40,7 @@ export const breathingTechniques = [
   {
     id: "box",
     name: "Box Breathing",
-    description: "Equal counts for inhale, hold, exhale, and hold. Used by Navy SEALs for calm focus.",
+    description: "Equal counts for inhale, hold, exhale, and hold. A proven technique for calm focus.",
     phases: [
       { label: "Inhale", duration: 4 },
       { label: "Hold", duration: 4 },
@@ -86,16 +86,16 @@ export const sleepTips = [
   "Keep your bedroom cool (16-18°C)",
   "Try a body scan meditation",
   "Write tomorrow's to-do list to clear your mind",
-  "Avoid caffeine after 2 PM",
+  "Avoid caffeine after 2pm",
   "Keep a consistent wake-up time, even on weekends",
 ];
 
 export const crisisResources = [
   { name: "Samaritans", number: "116 123", description: "24/7 emotional support", region: "UK" },
-  { name: "Crisis Text Line", number: "Text HELLO to 741741", description: "Free crisis counselling via text", region: "US" },
-  { name: "988 Suicide & Crisis Lifeline", number: "988", description: "24/7 suicide prevention", region: "US" },
+  { name: "Shout", number: "Text SHOUT to 85258", description: "Free crisis counselling via text, 24/7", region: "UK" },
   { name: "CALM", number: "0800 58 58 58", description: "For men in crisis, 5pm–midnight", region: "UK" },
-  { name: "Shout", number: "Text SHOUT to 85258", description: "24/7 text support", region: "UK" },
+  { name: "Mind Infoline", number: "0300 123 3393", description: "Mental health info & signposting, Mon–Fri 9am–6pm", region: "UK" },
+  { name: "Papyrus HOPELINEUK", number: "0800 068 4141", description: "Under-35s suicide prevention", region: "UK" },
 ];
 
 export const features = [
